@@ -25,12 +25,13 @@ body {
   height: 120px;
   margin-top: -8px;
   margin-left: -8px;
+  margin-bottom: auto;
+  margin-right: auto;
 }
 
 .imagejsp {
   width: 167px;
   height: 258px;
-  flex-shrink: 0;
 }
 
 .manoirethistoire {
@@ -69,15 +70,25 @@ img {
   max-width: 100%;
 }
 
-.abbonées {
+.abbonées-1 {
   font-size: 24px;
   font-family: inter;
   color: #505050;
   margin: 4%;
-  display: flex;
-  align-items: baseline;
+}
+.abbonées-2 {
+  font-size: 24px;
+  font-family: inter;
+  color: #505050;
+  margin: 4%;
 }
 
+.abbonées-3 {
+  font-size: 24px;
+  font-family: inter;
+  color: #505050;
+  margin: 4%;
+}
 .ajouterfavorisoucommentaire {
   display: flex;
   align-items: baseline;
@@ -94,6 +105,8 @@ h5 {
   color: rgba(0, 0, 0, 0.83);
   font-size: 20px;
   font-weight: 400;
+  display: flex;
+  align-items: baseline;
 }
 
 .profession {
@@ -106,4 +119,22 @@ h5 {
 .information-livre {
   display: flex;
   align-items: baseline;
+}
+
+.footer {
+  background-color: #d9d9d9;
+  margin-top: -8px;
+  margin-left: -8px;
+  width: 600px;
+  height: 70px;
+}
+
+.icone-footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Gerard-infirmer-test {
+  display: flex;
+  flex-flow: column;
 }
