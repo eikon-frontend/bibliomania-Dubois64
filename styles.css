@@ -13,3 +13,97 @@
 }
 
 /* 🦊 Vos styles ici */
+body {
+  background-color: #eeeeee;
+  width: 600px;
+  font-family: inter;
+}
+
+.logo-plateforme {
+  background-color: #d9d9d9;
+  width: 500px;
+  height: 120px;
+  margin-top: -8px;
+  margin-left: -8px;
+}
+
+.imagejsp {
+  width: 167px;
+  height: 258px;
+  flex-shrink: 0;
+}
+
+.manoirethistoire {
+  width: 145px;
+  font-size: 11px;
+  font-family: inter;
+  text-align: left;
+  justify-content: flex-end;
+  max-width: 100%;
+  margin: 4%;
+}
+
+h3 {
+  color: #505050;
+  font-size: 18px;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 700;
+  width: 169px;
+  height: 88px;
+  font-family: inter;
+}
+
+h1 {
+  font-family: sans-serif;
+  margin: 4%;
+}
+
+.icone {
+  margin: 4%;
+}
+
+img {
+  max-width: 100%;
+}
+
+.abbonées {
+  font-size: 24px;
+  font-family: inter;
+  color: #505050;
+  margin: 4%;
+  display: flex;
+  align-items: baseline;
+}
+
+.ajouterfavorisoucommentaire {
+  display: flex;
+  align-items: baseline;
+}
+
+h5 {
+  color: #505050;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 4%;
+}
+
+.utilisateurs {
+  color: rgba(0, 0, 0, 0.83);
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.profession {
+  color: #262626;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.information-livre {
+  display: flex;
+  align-items: baseline;
+}
