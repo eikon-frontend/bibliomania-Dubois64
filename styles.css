@@ -24,9 +24,8 @@ body {
   height: 120px;
   margin-top: -8px;
   margin-left: -8px;
-  margin-bottom: auto;
-  margin-right: auto;
   justify-content: center;
+  display: flex;
 }
 
 .manoirethistoire {
@@ -47,8 +46,8 @@ h3 {
 h2 {
   font-size: 18px;
   font-weight: 700;
-  width: 169px;
-  height: 88px;
+  width: 169%;
+  height: 88%;
   font-family: inter;
   display: flex;
 }
@@ -60,10 +59,6 @@ h1 {
 
 .icone {
   margin: 4%;
-}
-
-img {
-  max-width: 100%;
 }
 
 .abbonees-1 {
@@ -112,7 +107,7 @@ h5 {
   margin-top: -8px;
   margin-left: -8px;
   width: 390px;
-  height: 70px;
+  height: 12%;
 }
 
 .icone-footer {
@@ -131,7 +126,6 @@ h5 {
 }
 
 .icone-lu-alire {
-  display: flex;
   justify-content: space-between;
   border-radius: 4px;
   width: 252px;
@@ -139,5 +133,72 @@ h5 {
   flex-shrink: 0;
   background: #d9d9d9;
   margin: 4%;
+  text-align: center;
+}
+
+.icone-lu-alire:hover {
+  justify-content: space-between;
+  border-radius: 4px;
+  width: 252px;
+  height: 28px;
+  flex-shrink: 0;
+  background: #ffd000;
+  margin: 4%;
+  text-align: center;
+}
+
+.icone-taille {
+  max-width: 200px;
+  align-items: baseline;
+  justify-content: space-around;
+  margin: 6 px;
+  margin-top: 1px;
+  margin-left: 15px;
+  display: flex;
+}
+
+.ajouteruncommentaire {
+  margin: 4%;
+  background-color: #b1b1b1;
+  width: 252px;
+  height: 45px;
+  border-radius: 60px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  color: rgba(255, 255, 255, 0.714);
+  margin-top: 10px;
+  text-align: center;
+}
+.ajouteruncommentaire:hover {
+  margin: 4%;
+  background-color: #6f6f6f;
+  width: 252px;
+  height: 45px;
+  border-radius: 60px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  color: rgba(255, 255, 255, 0.714);
+  margin-top: 10px;
+  text-align: center;
+}
+
+.bouton-voir-plus {
+  background-color: #505050;
+  color: rgba(255, 255, 255, 0.814);
+  border-radius: 10px;
+  max-width: 97px;
+  max-height: 47px;
+  font-size: 22px;
+  text-align: center;
+}
+.bouton-voir-plus:hover {
+  background-color: #ffd000;
+  color: rgba(5, 5, 5, 0.814);
+  border-radius: 10px;
+  max-width: 97px;
+  max-height: 47px;
+  font-size: 22px;
   text-align: center;
 }
