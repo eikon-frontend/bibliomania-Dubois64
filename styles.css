@@ -13,3 +13,192 @@
 }
 
 /* 🦊 Vos styles ici */
+body {
+  background-color: #eeeeee;
+  font-family: inter;
+}
+
+.logo-plateforme {
+  background-color: #d9d9d9;
+  width: 390px;
+  height: 120px;
+  margin-top: -8px;
+  margin-left: -8px;
+  justify-content: center;
+  display: flex;
+}
+
+.manoirethistoire {
+  width: 145px;
+  font-size: 11px;
+  font-family: inter;
+  text-align: left;
+  justify-content: flex-end;
+  max-width: 100%;
+  margin: 4%;
+}
+
+h3 {
+  color: #505050;
+  font-size: 18px;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 700;
+  width: 169%;
+  height: 88%;
+  font-family: inter;
+  display: flex;
+}
+
+h1 {
+  font-family: sans-serif;
+  margin: 4%;
+}
+
+.icone {
+  margin: 4%;
+}
+
+.abbonees-1 {
+  font-size: 24px;
+  font-family: inter;
+  color: #505050;
+  margin: 4%;
+}
+
+.ajouterfavorisoucommentaire {
+  display: flex;
+  align-items: baseline;
+}
+
+h5 {
+  color: #505050;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 4%;
+}
+
+.utilisateurs {
+  color: rgba(0, 0, 0, 0.83);
+  font-size: 20px;
+  font-weight: 400;
+  display: flex;
+  align-items: baseline;
+}
+
+.profession {
+  color: #262626;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.information-livre {
+  display: flex;
+  align-items: baseline;
+  gap: 5px;
+  float: right;
+}
+
+.footer {
+  background-color: #d9d9d9;
+  margin-top: -8px;
+  margin-left: -8px;
+  width: 390px;
+  height: 12%;
+}
+
+.icone-footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Gerard-infirmer-test {
+  display: flex;
+  flex-flow: column;
+}
+
+.titre {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.icone-lu-alire {
+  justify-content: space-between;
+  border-radius: 4px;
+  width: 252px;
+  height: 28px;
+  flex-shrink: 0;
+  background: #d9d9d9;
+  margin: 4%;
+  text-align: center;
+}
+
+.icone-lu-alire:hover {
+  justify-content: space-between;
+  border-radius: 4px;
+  width: 252px;
+  height: 28px;
+  flex-shrink: 0;
+  background: #ffd000;
+  margin: 4%;
+  text-align: center;
+}
+
+.icone-taille {
+  max-width: 200px;
+  align-items: baseline;
+  justify-content: space-around;
+  margin: 6 px;
+  margin-top: 1px;
+  margin-left: 15px;
+  display: flex;
+}
+
+.ajouteruncommentaire {
+  margin: 4%;
+  background-color: #b1b1b1;
+  width: 252px;
+  height: 45px;
+  border-radius: 60px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  color: rgba(255, 255, 255, 0.714);
+  margin-top: 10px;
+  text-align: center;
+}
+.ajouteruncommentaire:hover {
+  margin: 4%;
+  background-color: #6f6f6f;
+  width: 252px;
+  height: 45px;
+  border-radius: 60px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  color: rgba(255, 255, 255, 0.714);
+  margin-top: 10px;
+  text-align: center;
+}
+
+.bouton-voir-plus {
+  background-color: #505050;
+  color: rgba(255, 255, 255, 0.814);
+  border-radius: 10px;
+  max-width: 97px;
+  max-height: 47px;
+  font-size: 22px;
+  text-align: center;
+}
+.bouton-voir-plus:hover {
+  background-color: #ffd000;
+  color: rgba(5, 5, 5, 0.814);
+  border-radius: 10px;
+  max-width: 97px;
+  max-height: 47px;
+  font-size: 22px;
+  text-align: center;
+}

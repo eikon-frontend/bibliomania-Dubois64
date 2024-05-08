@@ -1,32 +1,169 @@
-<!DOCTYPE html>
+<!DOCTYPE html
+
 <html lang="fr">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bibliomania</title>
     <link rel="stylesheet" href="scripts/star-rating.min.css" />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
   </head>
-  <body>
+  
     <!-- 🦊 Votre page ici -->
+<body>
+  
 
-    <!-- 💡 Décommentez cette balise et placez-la dans votre code afin d'afficher le système de note Javascript -->
-    <!-- 
-        <select class="star-rating" aria-label="Note utilisateur">
-            <option value="">Select a rating</option>
-            <option value="5">Excellent</option>
-            <option value="4">Very Good</option>
-            <option value="3">Average</option>
-            <option value="2">Poor</option>
-            <option value="1">Terrible</option>
-        </select>
-    -->
-    <!-- 💡 Script pour gérer le rating d'un livre -->
-    <script src="scripts/star-rating.min.js"></script>
-    <script>
-      var stars = new StarRating(".star-rating", {
-        tooltip: "Choisissez votre note",
-      });
-    </script>
-  </body>
+    <div class="logo-plateforme">
+      <img src="images /icone_logo.png" alt="logo plateforme bibliomania" />
+    </div>
+
+  <h1>
+      <u>Détails livre</u>
+    <img src="images /icone croix.png" alt="icone croix" /> 
+
+  </h1>
+
+
+
+<div class="icone-lu-alire"> 
+ <div class="icone-taille">
+  Déjà Lu
+  <img src="img/icone vu.svg" alt="vu">
+  <img src="img/ligne separation bouton.png" alt="ligne separation bouton">
+A lire
+<img src="img/regarder plus tard icone.svg" alt="icone horloge">
+
+</div>
+
+</div>
+ 
+
+
+
+
+
+<div class="manoirethistoire" >
+<img src="images /couverture livre étrange histoire .png" alt="manoir des histoires étrange livre "> 
+<select class="star-rating" aria-label="Note utilisateur">
+<option value="">Select a rating</option>
+<option value="5">Excellent !</option>
+<option value="4">Bien</option>
+<option value="3">Pas mal</option>
+<option value="2">Moyen</option>
+<option value="1">Nul</option>
+</select>
+
+<div class="titre">
+  <h2>Le manoir des histoires étranges...</h2>
+<h3>Lionel Boulet</h3>
+
+
+<div class="information-livre">
+<p>genre:<h4>horreur</h4> </p>
+
+<p>publication<h4>2023</h4> </p>
+
+
+</div>
+<p>Plongez dans ce recueil de 100 histoires vraies,
+de témoignages,d'expériences paranormales, d'esprits,
+de maisons hantées, ou encore d'ovnis, d'anecdotes 
+inexplicables, de rites, de sorcellerie, de croyances, 
+de mythes, de mystères, de meurtres étranges, de légendes 
+urbaines et plus encore...</p> 
+
+<div class="ajouterfavorisoucommentaire">
+<div class="ajouteruncommentaire">
+ <br>
+  Ajouter un commentaire
+</div>
+<img src="img/coeur.png">
+</div>
+</div>
+</div> 
+
+
+
+
+
+
+<h5>Abonné(e)s</h5>
+<div class="abbonees-1" >
+<img src="img/Ellipse 17.svg" alt="photo de profil"> 
+<div class="Gerard-infirmer-test">
+  <p class="utilisateurs">  Gérard </p>
+<p class="profession">infirmier</p>
+</div>
+
+<hr> </div>
+
+<div class="abbonees-1" >
+<img src="img/Ellipse 17.svg" alt="photo de profil"> 
+<p class="utilisateurs">  Camille </p>
+<p class="profession">coiffeuse</p>
+<hr></div>
+
+<div class="abbonees-1" >
+<img src="img/Ellipse 17.svg" alt="photo de profil"> 
+<p class="utilisateurs">  Françoise</p>
+<p class="profession">enseignante de sports</p>
+<hr>
+</div>  
+<br> <br>
+<h5>Abonnements</h5>
+<div class="abbonees-1" >
+<img src="img/Ellipse 17.svg" alt="photo de profil"> 
+<p class="utilisateurs">  Charlie</p>
+<p class="profession">fleuriste</p>
+<hr> </div>
+
+<div class="abbonees-1" >
+  <img src="img/Ellipse 17.svg" alt="photo de profil"> 
+  <p class="utilisateurs">  Nathan</p>
+  <p class="profession">conducteur de bus</p>
+<hr></div>
+
+<div class="abbonees-1" >
+  <img src="img/Ellipse 17.svg" alt="photo de profil"> 
+  <p class="utilisateurs">  Florian</p>
+  <p class="profession">designer</p>
+<hr> <br>
+
+
+<div class="bouton-voir-plus">
+  voir plus 
+</div>
+
+
+ <br>
+</div> <br> <br> 
+
+
+<div class="footer">
+  <div class="icone-footer">
+<img src="img/icone-maison.png" alt="icone maison"> 
+<img src="img/icone-search.png" alt="icone recherche">
+<img src="img/icone-profil.png" alt="icone compte">
+<img src="img/icone-collection.png" alt="icone collection">
+
+  </div>
+
+</div>
+   
+
+
+
+<script src="scripts/star-rating.min.js"></script>
+<script>
+var stars = new StarRating(".star-rating", {
+  tooltip: "évaluez ce livre",
+});
+</script>
+</body>
+
+  
 </html>
